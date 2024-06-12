@@ -1,4 +1,4 @@
-certificate_arn: {}
+certificate_arn: arn:aws:acm:ap-northeast-2:654654522803:certificate/17d94d4f-aeda-4d30-a89e-5992342eaae0
 
 global:
   hub: docker.io/istio
@@ -185,8 +185,8 @@ istio-ingress:
       rollingMaxUnavailable: 25%
       env: {}
       autoscaleEnabled: true
-      autoscaleMin: 1  # 1 pod per node
-      autoscaleMax: 1  # 1 pod per node
+      autoscaleMin: 3  # 1 pod per node
+      autoscaleMax: 5  # 1 pod per node
       secretVolumes:
       - name: ingressgateway-certs
         secretName: istio-ingressgateway-certs
