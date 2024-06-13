@@ -1,1 +1,1 @@
-{"version":"1","project":"t3user034","pac":[{"name":"istio","source":"CATALOG","directory":"istio-l06q31n9"},{"name":"logging-stack","source":"CATALOG","directory":"logging-stack-4282iljn"}]}
+{"version":"1","project":"t3user034","pac":[{"name":"istio","source":"CATALOG","directory":"istio-l06q31n9"},{"name":"logging-stack","source":"CATALOG","directory":"logging-stack-4282iljn"},{"name":"monitoring-stack","source":"CATALOG","directory":"monitoring-stack-51o2o7d8"}]}
