@@ -38,7 +38,7 @@ fluent-bit:
           Systemd_Filter _SYSTEMD_UNIT=kubelet.service
           Read_From_Tail On
 
-      [INPUT]
+      [INPUT]  
           Name tail
           Path /var/log/containers/test-pod*.log
           multiline.parser cri
